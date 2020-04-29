@@ -1,0 +1,221 @@
+/* .all-content {
+  width: 100%;
+  max-width: 1366px;
+  height: 100vh;
+} */
+
+/* navigation styles */
+.header-color {
+  position: fixed;
+  background: rgb(22,20,15);
+  background: linear-gradient(0deg, rgba(22,20,15,1) 0%, rgba(45,164,201,1) 50%, rgba(9,60,72,1) 100%);
+}
+
+/* landing page styles */
+.landing-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url('https://images.unsplash.com/photo-1508923567004-3a6b8004f3d7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1534&q=80') no-repeat;
+  background-size: cover;
+  visibility: hidden;
+}
+
+.landing-content-box {
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  color: #fff;
+}
+
+.landing-content-box .avatar {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  background-color: #fff;
+  margin-top: 5em;
+}
+
+.landing-content-box h1 { 
+  font-size: 2.7rem;
+  letter-spacing: 4px;
+  font-weight: 100;
+  padding: 0.5em;
+}
+
+.landing-content-box hr {
+  border-top: 5px dotted #fff;
+  width: 50%;
+  margin: auto;
+}
+
+.landing-content-box h5 {
+  font-size: 20px;
+  letter-spacing: 3px;
+  font-weight: 100;
+}
+
+.landing-content-box p {
+  text-align: justify;
+  padding: 0.5em;
+}
+
+.landing-social-icons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: auto;
+}
+
+.landing-social-icons i {
+  color: #fff;
+  font-size: 60px;
+  padding: 8px;
+  transition: all ease-in-out 250ms;
+}
+
+.landing-social-icons i:hover {
+  color: #b9b9b9;
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 940px) {
+  .landing-social-icons i {
+    font-size: 3rem;
+  }
+}
+
+/* resume page css */
+.resume-right-col {
+  background: rgb(22,20,15);
+  background: linear-gradient(0deg, rgba(22,20,15,1) 0%, rgba(45,164,201,1) 50%, rgba(9,60,72,1) 100%);
+  color: #fff;
+  padding: 2em;
+}
+
+/* about page css */
+.about-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-content-box h1 {
+  font-size: 2.7rem;
+}
+
+.about-content-box {
+-webkit-box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+box-shadow: -10px 0px 13px -7px #000000, 10px 0px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0);
+padding: 2em;
+}
+
+.about-content-box .avatar {
+  width: 100%;
+  max-width: 200px;
+  height: 200px;
+  float: left;
+  padding: 2em;
+}
+
+.about-social-icons {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  margin: auto;
+}
+
+.about-social-icons i {
+  color: rgba(0,0,0, 0.87);
+  font-size: 60px;
+  padding: 8px;
+  transition: all ease-in-out 250ms;
+}
+
+.about-social-icons i:hover {
+  color: #b9b9b9;
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 940px) {
+  .about-social-icons i {
+    font-size: 3rem;
+  }
+}
+
+/* projects page css */
+.projects-content-box {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  align-items: center;
+  justify-content: center;
+}
+
+/* contact page css */
+.contact-body {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  color: #000;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted #000;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-list i {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 940px) {
+  .contact-list i {
+    font-size: 1.6rem;
+  }
+}
+
+/* @media only screen and (max-width: 510px) {
+  .contact-list i {
+    font-size: 1.9rem;
+  }
+} 
+
+@media only screen and (max-width: 380px) {
+  .contact-list i {
+    font-size: 1.6rem;
+  }
+}  */
+
+
+
+
+
+
