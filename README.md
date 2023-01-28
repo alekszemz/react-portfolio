@@ -1,3 +1,10 @@
+<strong>#react-portfolio</strong>
+
+<p>This link, <a href='https://alekszemz.github.io/react-portfolio/#/resume'>https://alekszemz.github.io/react-portfolio/#/resume</a>, directs to a personal portfolio website created by a developer named <strong>Alekszemz</strong>. The website is built using <strong>React.js</strong>, a popular JavaScript library for building user interfaces.</p>
+<p>The portfolio website serves as a showcase for the developer's skills and experiences in web development. It provides a platform for the developer to display their work and highlight their abilities to potential employers and clients.</p>
+<p>The link specifically navigates to the "Resume" page of the website, which is likely to include the developer's professional resume, as well as additional information about their education and work experience. The resume page may also include the developer's contact information and links to their other online profiles or projects.</p>
+<p>It's worth mentioning that the website is hosted on <strong>GitHub</strong>, which is a popular platform for hosting and sharing code and projects. By hosting the portfolio website on GitHub, the developer is able to share their work with a wider audience and also allows others to easily access the source code.</p>
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
